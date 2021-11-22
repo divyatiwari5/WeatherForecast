@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# TODO:
+
+- Show weather of 5 days
+- Show day, temperature, icon, weather
+- Search by city
+- 
+
 ## Available Scripts
 
 In the project directory, you can run:
