@@ -1,0 +1,21 @@
+.weather-card {
+    width: 150px;
+    border: 1px solid $LIGHTGREY;
+    & > .day-time {
+        display: flex;
+        flex-direction: column;
+        line-height: 0;
+        text-align: center;
+        & > .day {
+            line-height: 0;
+            font-size: 18px;
+            font-weight: 700;
+        }
+        & > .time {
+            font-size: 12px;
+        }
+    }
+    & > .temperature {
+        text-align: center;
+    }
+}
