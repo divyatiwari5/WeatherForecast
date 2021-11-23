@@ -1,5 +1,5 @@
 .weather-card {
-    width: 180px;
+    width: 200px;
     border: 1px solid $LIGHTGREY;
     margin: 22px 10px;
     & > .day-time {
@@ -17,7 +17,14 @@
         }
     }
     & > .temperature {
-        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10px;
+        & > img {
+            height: 62px;
+            width: 62px;
+        }
     }
     & > .condition {
         text-align: center;
