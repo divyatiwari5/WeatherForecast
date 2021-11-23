@@ -1,15 +1,15 @@
-function WeatherCard() {
+function WeatherCard(props) {
     return (
         <div className="weather-card">
             <div className="day-time">
                 <h4 className="day">Monday</h4>
-                <p className="time">Nov 1st, 1:00pm</p>
+                <p className="time">{props.date}</p>
             </div>
             <div className="temperature">
-                <img/>
-                <h3>34 C</h3>
+                <img src={props.icon}/>
+                <h3>{props.temperature} C</h3>
             </div>
-            <p className="">Clear sky</p>
+            <p className="condition">{props.condition}</p>
         </div>
     )
 }

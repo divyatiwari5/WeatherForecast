@@ -1,6 +1,7 @@
 .weather-card {
-    width: 150px;
+    width: 180px;
     border: 1px solid $LIGHTGREY;
+    margin: 22px 10px;
     & > .day-time {
         display: flex;
         flex-direction: column;
@@ -16,6 +17,9 @@
         }
     }
     & > .temperature {
+        text-align: center;
+    }
+    & > .condition {
         text-align: center;
     }
 }
